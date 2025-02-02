@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0 0 0;
+    align-items: center;
+}
+.nav-link {
+    margin: 10px 30px !important;
+    text-decoration: none !important;
+    color: #001024 !important;
+    align-items: center !important;
+}
+
+.nav-links-container .nav-link:last-child {
+    color: white !important;
+    padding: 8px 15px !important;
+    background-color: #001024 !important;
+    /* border-radius: 50px !important; */
+    border-radius: 0 10px 0 10px !important;
+    margin: 0 !important;
+    text-decoration: none !important;
+}

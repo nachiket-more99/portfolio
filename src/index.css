@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif !important;
+  background: linear-gradient(90deg, rgb(255, 226, 234) 0%, rgb(213, 247, 255) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+/* font-sizes */
+.title {
+  font-size: 27px !important; /* Title */
+}
+
+.subtitle {
+  font-size: 20px !important; /* Subtitle */
+}
+
+.heading {
+  font-size: 18px !important; /* Heading */
+}
+
+.subheading {
+  font-size: 16px !important; /* Subheading */
+  color: #00102499 !important;
+}
+
+.content {
+  font-size: 16px !important; /* Content */
+}
+
+/* Font Weights */
+.font-light {
+  font-weight: 300 !important; /* Light font weight */
+}
+
+.font-normal {
+  font-weight: 400 !important; /* Normal font weight */
+}
+
+.font-bold {
+  font-weight: 600 !important; /* Bold font weight */
+}

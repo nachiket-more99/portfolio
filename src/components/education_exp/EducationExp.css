@@ -1,0 +1,25 @@
+.about-container {
+    /* margin: 30px 0; */
+}
+
+.about-container .about-section {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 40%;
+}
+
+.about-container .dates {
+    text-align: end;
+    margin: 0 20px;
+}
+
+.about-container .content {
+    margin: 0 10px 10px 10px;
+}
+
+.section-line {
+    border: 0;
+    height: 1px;
+    background-color: #ccc; 
+    margin: 15px auto; 
+}
