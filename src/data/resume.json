@@ -1,11 +1,10 @@
 {
   "name": "Nachiket More",
-  "summary": "I am a graduate from Portland State University with a Master's in Computer Science. I have gained industry experience across multiple companies, working on frontend and backend systems. Currently, I am expanding my knowledge in Software Engineering to build efficient and user-friendly software. Feel free to reach out if my skills align with your company's needs!",
+  "summary": "Software Engineer with 2+ years of experience designing and developing scalable web applications and APIs using modern technologies including React, Django, Node.js, and AWS. Skilled in both frontend and backend development, cloud deployment, and CI/CD automation. Passionate about building efficient, maintainable software solutions and collaborative problem solving.",
   "position": "Full-Stack Software Engineer",
   "self_photo": "/portfolio/img/self-pic.jpeg",
   "github_url": "https://github.com/nachiket-more/",
   "linkedin_url": "https://www.linkedin.com/in/nachiketmore99/",
-  "resume_link": "https://drive.google.com/file/d/1j7RwLcJcDYC8ni6erO-F3SW5vkc3tMxg/view?usp=sharing",
   "education": [
     {
       "college": "Portland State University, Portland, OR",
@@ -58,44 +57,74 @@
     }
   ],
   "projects": [
-    {
-      "project_title": "Web App for Quick and Easy Recipes",
-      "date": "Aug 2024",
-      "info": [
-        "Developed a full-stack web app using React (frontend) and Django (backend) and DynamoDB for recipe storage.",
-        "Deployed frontend on AWS S3 and backend on Elastic Beanstalk, with CI/CD pipelines via AWS CodePipeline."
-      ],
-      "tags": ["React", "Django", "AWS", "DynamoDB"]
-    },
-    {
-      "project_title": "Sentiment Analysis of Movie Reviews",
-      "date": "Mar 2024",
-      "info": [
-        "Python web app for movie analysis showcasing details and sentiment analysis of reviews.",
-        "Used TMDB API for movie details and Google's API for sentiment analysis.",
-        "Implemented Docker from Google Cloud for deployment."
-      ],
-      "tags": ["Python", "Sentiment Analysis", "Google Cloud", "Docker"]
-    },
-    {
-      "project_title": "AeroGraph - Full Stack Flight Data Visualization Application",
-      "date": "Dec 2023",
-      "info": [
-        "React and Node.js based front-end app to visualize flight data with MongoDB backend.",
-        "Used react-google-charts and react-simple-maps libraries for data representation."
-      ],
-      "tags": ["React", "Node.js", "MongoDB", "Data Visualization"]
-    },
-    {
-      "project_title": "TriviaGame Application",
-      "date": "June 2023",
-      "info": [
-        "MERN stack web app with an Express Node.js backend and MongoDB for data storage.",
-        "Containerized the app with Docker and FastAPI for microservices architecture with integrated Auth0 for MFA."
-      ],
-      "tags": ["MERN stack", "Docker", "FastAPI", "Auth0"]
-    }
-  ],
+  {
+    "project_title": "Finsight – Personal Expense Tracker",
+    "date": "May 2025",
+    "info": [
+      "Developed React frontend with RESTful APIs using Spring Boot to manage personal expenses with CRUD operations and summary reports.",
+      "Integrated Spring Data JPA with H2 database, achieving 100% test coverage on core endpoints.",
+      "Created endpoints for total, monthly, and category-wise summaries; optimized queries to reduce DB load by 30%."
+    ],
+    "tags": ["React", "Java", "Spring Boot", "H2", "Spring Data JPA"],
+    "deployed_link": "https://finsight-frontend.onrender.com/" ,
+    "repo_link": "https://github.com/nachiket-more/finsight"
+  },
+  {
+    "project_title": "Web App for Quick and Easy Recipes",
+    "date": "Aug 2024",
+    "info": [
+      "Developed a full-stack web app using React (frontend) and Django (backend) and DynamoDB for recipe storage.",
+      "Engineered Django REST APIs integrated with AWS DynamoDB, handling 500+ recipe records.",
+      "Deployed backend on Elastic Beanstalk and frontend on AWS S3 via CI/CD pipelines using AWS CodePipeline.",
+      "Set up CORS and secure cross-origin communication, reducing release time by 40%."
+    ],
+    "tags": ["React", "Django", "AWS", "DynamoDB", "CodePipeline"],
+    "repo_link": "https://github.com/nachiket-more/recipe-web-app"
+  },
+  {
+    "project_title": "Rust Web App – Q&A Platform",
+    "date": "June 2024",
+    "info": [
+      "Built RESTful CRUD APIs using Rust and Axum framework connected to PostgreSQL DB.",
+      "Implemented robust route handling and error responses; supported operations for 1000+ records.",
+      "Designed for high performance and type safety with minimal runtime overhead."
+    ],
+    "tags": ["Rust", "Axum", "PostgreSQL"],
+    "repo_link": "https://github.com/nachiket-more/CS510-005-Rust-Web-Dev"
+  },
+  {
+    "project_title": "Sentiment Analysis of Movie Reviews",
+    "date": "Mar 2024",
+    "info": [
+      "Created a Python web app for movie sentiment analysis using TMDB API and Google NLP API.",
+      "Processed over 1,000 reviews/day; deployed to Google Cloud Run with Docker for autoscaling.",
+      "Showcased detailed review analysis with intuitive frontend interface."
+    ],
+    "tags": ["Python", "Sentiment Analysis", "Google Cloud", "Docker"],
+    "repo_link": ""
+  },
+  {
+    "project_title": "AeroGraph - Full Stack Flight Data Visualization Application",
+    "date": "Dec 2023",
+    "info": [
+      "React and Node.js based front-end app to visualize flight data with MongoDB backend.",
+      "Used react-google-charts and react-simple-maps libraries for data representation."
+    ],
+    "tags": ["React", "Node.js", "MongoDB", "Data Visualization"],
+    "repo_link": "https://github.com/nachiket-more/CS-564-001-Front-End-Project"
+  },
+  {
+    "project_title": "Trivia Game Application (Microservices)",
+    "date": "June 2023",
+    "info": [
+      "Built a microservices architecture with secure Auth0 login and backend services using FastAPI.",
+      "Used Docker Compose for modular deployment and MongoDB for data storage, reducing cold-starts by 50%."
+    ],
+    "tags": ["FastAPI", "Docker", "MongoDB", "Auth0"],
+    "repo_link": "https://github.com/nachiket-more/CS-565-002-Full-Stack-Project"
+  }
+]
+,
   "skills": {
     "Programming languages": ["Python", "JavaScript"],
     "Skills": ["Full Stack Development", "REST APIs", "CI/CD", "Database Design"],
