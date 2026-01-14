@@ -1,52 +1,81 @@
 {
   "name": "Nachiket More",
-  "summary": "Software Engineer with 2+ years of experience designing and developing scalable web applications and APIs using modern technologies including React, Django, Node.js, and AWS. Skilled in both frontend and backend development, cloud deployment, and CI/CD automation. Passionate about building efficient, maintainable software solutions and collaborative problem solving.",
+  "email": "nachiketmore.more@gmail.com",
+  "phone": "+91 9619068071",
+  "location": "Mumbai, India",
+  "summary": "Full-Stack Software Engineer with 2+ years of experience building scalable web applications, REST APIs, and cloud-deployed systems using React, Django, Node.js, and AWS. Skilled in both frontend and backend development, CI/CD automation, and database design.",
   "position": "Full-Stack Software Engineer",
-  "self_photo": "/portfolio/img/self-pic.jpeg",
+  "self_photo": "/img/self-pic.jpeg",
   "github_url": "https://github.com/nachiket-more99/",
   "linkedin_url": "https://www.linkedin.com/in/nachiketmore99/",
+  "resume_link": "",
   "education": [
     {
-      "college": "Portland State University, Portland, OR",
-      "degree": "Masters in Computer Science",
+      "degree": "M.S. Computer Science",
+      "college": "Portland State University",
+      "location": "Portland, OR",
       "start_date": "Jan 2023",
-      "end_date": "June 2024"
+      "end_date": "Jun 2024"
     },
     {
-      "college": "University of Mumbai, Mumbai, India",
-      "degree": "Bachelors in Computer Science",
-      "start_date": "Aug 2020",
+      "degree": "B.E. Computer Engineering",
+      "college": "University of Mumbai",
+      "location": "Mumbai, India",
+      "start_date": "Aug 2017",
       "end_date": "Dec 2020"
     }
   ],
   "experience": [
     {
+      "position": "Backend Developer",
       "company": "Fact Finders Pro",
       "location": "Seattle, WA",
-      "position": "Backend Developer",
-      "start_date": "Oct 2024",
-      "end_date": "Present"
+      "start_date": "Sept 2024",
+      "end_date": "Present",
+      "tags": ["FastAPI", "Python", "OpenAI API", "Microservices"],
+      "info": [
+        "Built a multi-service data verification pipeline using FastAPI, with an orchestrator managing 6 independent microservices running concurrently and sequentially based on data dependencies.",
+        "Integrated OpenAI API across services for structured data extraction, semantic inference, and natural language scoring.",
+        "Designed parallel execution in the orchestrator for independent services, reducing end-to-end pipeline latency."
+      ]
     },
     {
+      "position": "Software Engineer Intern",
       "company": "FlowAI",
       "location": "Portland, OR",
-      "position": "Software Engineer Intern",
-      "start_date": "Sept 2023",
-      "end_date": "Mar 2024"
+      "start_date": "Sep 2023",
+      "end_date": "Mar 2024",
+      "tags": ["React", "CI/CD", "Netlify"],
+      "info": [
+        "Built React UI components for internal dashboards, focusing on clean state management and reusable components.",
+        "Connected frontend features to backend APIs and handled loading, error, and empty states.",
+        "Set up CI/CD workflows using Netlify to automatically deploy frontend changes on every merge."
+      ]
     },
     {
+      "position": "Full Stack Software Engineer",
       "company": "LabelBlind",
       "location": "Mumbai, India",
-      "position": "Full Stack Software Engineer",
       "start_date": "Jun 2020",
-      "end_date": "May 2021"
+      "end_date": "May 2021",
+      "tags": ["React", "Node.js", "AWS", "DynamoDB"],
+      "info": [
+        "Developed full-stack web features using React and Node.js for consumer-facing applications.",
+        "Implemented backend APIs and integrated AWS services including DynamoDB and API Gateway.",
+        "Worked on deployment and environment configuration using AWS Amplify for production releases."
+      ]
     },
     {
+      "position": "Web Developer Intern",
       "company": "Static Codes",
       "location": "Mumbai, India",
-      "position": "Web Developer Intern",
       "start_date": "Dec 2019",
-      "end_date": "Feb 2020"
+      "end_date": "Feb 2020",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "info": [
+        "Built and styled responsive web pages for client projects.",
+        "Assisted in frontend development and cross-browser testing."
+      ]
     }
   ],
   "publications": [
@@ -57,79 +86,77 @@
     }
   ],
   "projects": [
-  {
-    "project_title": "Finsight – Personal Expense Tracker",
-    "date": "May 2025",
-    "info": [
-      "Developed React frontend with RESTful APIs using Spring Boot to manage personal expenses with CRUD operations and summary reports.",
-      "Integrated Spring Data JPA with H2 database, achieving 100% test coverage on core endpoints.",
-      "Created endpoints for total, monthly, and category-wise summaries; optimized queries to reduce DB load by 30%."
-    ],
-    "tags": ["React", "Java", "Spring Boot", "H2", "Spring Data JPA"],
-    "deployed_link": "https://finsight-frontend.onrender.com/" ,
-    "repo_link": "https://github.com/nachiket-more99/finsight"
-  },
-  {
-    "project_title": "Web App for Quick and Easy Recipes",
-    "date": "Aug 2024",
-    "info": [
-      "Developed a full-stack web app using React (frontend) and Django (backend) and DynamoDB for recipe storage.",
-      "Engineered Django REST APIs integrated with AWS DynamoDB, handling 500+ recipe records.",
-      "Deployed backend on Elastic Beanstalk and frontend on AWS S3 via CI/CD pipelines using AWS CodePipeline.",
-      "Set up CORS and secure cross-origin communication, reducing release time by 40%."
-    ],
-    "tags": ["React", "Django", "AWS", "DynamoDB", "CodePipeline"],
-    "repo_link": "https://github.com/nachiket-more99/recipe-web-app"
-  },
-  {
-    "project_title": "Rust Web App – Q&A Platform",
-    "date": "June 2024",
-    "info": [
-      "Built RESTful CRUD APIs using Rust and Axum framework connected to PostgreSQL DB.",
-      "Implemented robust route handling and error responses; supported operations for 1000+ records.",
-      "Designed for high performance and type safety with minimal runtime overhead."
-    ],
-    "tags": ["Rust", "Axum", "PostgreSQL"],
-    "repo_link": "https://github.com/nachiket-more99/CS510-005-Rust-Web-Dev"
-  },
-  {
-    "project_title": "Sentiment Analysis of Movie Reviews",
-    "date": "Mar 2024",
-    "info": [
-      "Created a Python web app for movie sentiment analysis using TMDB API and Google NLP API.",
-      "Processed over 1,000 reviews/day; deployed to Google Cloud Run with Docker for autoscaling.",
-      "Showcased detailed review analysis with intuitive frontend interface."
-    ],
-    "tags": ["Python", "Sentiment Analysis", "Google Cloud", "Docker"],
-    "repo_link": ""
-  },
-  {
-    "project_title": "AeroGraph - Full Stack Flight Data Visualization Application",
-    "date": "Dec 2023",
-    "info": [
-      "React and Node.js based front-end app to visualize flight data with MongoDB backend.",
-      "Used react-google-charts and react-simple-maps libraries for data representation."
-    ],
-    "tags": ["React", "Node.js", "MongoDB", "Data Visualization"],
-    "repo_link": "https://github.com/nachiket-more99/CS-564-001-Front-End-Project"
-  },
-  {
-    "project_title": "Trivia Game Application (Microservices)",
-    "date": "June 2023",
-    "info": [
-      "Built a microservices architecture with secure Auth0 login and backend services using FastAPI.",
-      "Used Docker Compose for modular deployment and MongoDB for data storage, reducing cold-starts by 50%."
-    ],
-    "tags": ["FastAPI", "Docker", "MongoDB", "Auth0"],
-    "repo_link": "https://github.com/nachiket-more99/CS-565-002-Full-Stack-Project"
-  }
-]
-,
-  "skills": {
-    "Programming languages": ["Python", "JavaScript"],
-    "Skills": ["Full Stack Development", "REST APIs", "CI/CD", "Database Design"],
-    "Database": ["MySQL", "MongoDB", "Postgres", "DynamoDB"],
-    "Web": ["HTML", "CSS3", "NodeJS", "ExpressJS", "TypeScript"],
-    "Frameworks/Tools": ["React", "Redux", "Flask", "Django", "AWS (S3, Amplify, CodePipeline, Lambda)"]
-  }
+    {
+      "project_title": "Finsight – Personal Expense Tracker",
+      "date": "May 2024",
+      "summary": "Full-stack expense tracker with category-wise summaries and optimized DB queries.",
+      "info": [
+        "Developed React frontend with RESTful APIs using Spring Boot to manage personal expenses with CRUD operations and summary reports.",
+        "Integrated Spring Data JPA with H2 database, achieving 100% test coverage on core endpoints.",
+        "Created endpoints for total, monthly, and category-wise summaries; optimized queries to reduce DB load by 30%."
+      ],
+      "tags": ["React", "Java", "Spring Boot", "H2", "Spring Data JPA"],
+      "deployed_link": "",
+      "repo_link": "https://github.com/nachiket-more99/finsight"
+    },
+    {
+      "project_title": "Web App for Quick and Easy Recipes",
+      "date": "Aug 2024",
+      "summary": "Full-stack recipe app deployed on AWS with CI/CD via CodePipeline.",
+      "info": [
+        "Developed a full-stack web app using React and Django with DynamoDB for recipe storage.",
+        "Engineered Django REST APIs integrated with AWS DynamoDB, handling 500+ recipe records.",
+        "Deployed backend on Elastic Beanstalk and frontend on AWS S3 via CI/CD pipelines using AWS CodePipeline.",
+        "Set up CORS and secure cross-origin communication, reducing release time by 40%."
+      ],
+      "tags": ["React", "Django", "AWS", "DynamoDB", "CodePipeline"],
+      "deployed_link": "",
+      "repo_link": "https://github.com/nachiket-more99/recipe-web-app"
+    },
+    {
+      "project_title": "AeroGraph – Flight Data Visualization",
+      "date": "Dec 2023",
+      "summary": "Interactive dashboard with map overlays and MongoDB aggregation pipelines.",
+      "info": [
+        "Built an interactive flight data dashboard with dynamic charts and geographic map overlays.",
+        "Designed aggregation pipelines in MongoDB to efficiently query and group large flight datasets by route, airline, and time range.",
+        "Architected a REST API layer in Node.js with query filtering, pagination, and response caching."
+      ],
+      "tags": ["React", "Node.js", "MongoDB", "REST APIs"],
+      "deployed_link": "",
+      "repo_link": "https://github.com/nachiket-more99/CS-564-001-Front-End-Project"
+    },
+    {
+      "project_title": "Trivia Game Application",
+      "date": "Jun 2023",
+      "summary": "Full-stack trivia game with Auth0 login, Docker containers, and real-time scoring.",
+      "info": [
+        "Created a full-stack trivia game with user authentication via Auth0 and real-time score tracking.",
+        "Containerized frontend and backend services using Docker for consistent local and production environments."
+      ],
+      "tags": ["React", "Node.js", "Express.js", "MongoDB", "Docker", "Auth0"],
+      "deployed_link": "",
+      "repo_link": "https://github.com/nachiket-more99/CS-565-002-Full-Stack-Project"
+    },
+    {
+      "project_title": "Rust Web App – Q&A Platform",
+      "date": "Jun 2024",
+      "summary": "High-performance RESTful Q&A API built with Rust and Axum.",
+      "info": [
+        "Built RESTful CRUD APIs using Rust and Axum framework connected to PostgreSQL.",
+        "Implemented robust route handling and error responses supporting operations for 1000+ records.",
+        "Designed for high performance and type safety with minimal runtime overhead."
+      ],
+      "tags": ["Rust", "Axum", "PostgreSQL"],
+      "deployed_link": "",
+      "repo_link": "https://github.com/nachiket-more99/CS510-005-Rust-Web-Dev"
+    }
+  ],
+  "skills": [
+    { "category": "Languages", "items": ["Python", "JavaScript (ES6+)", "TypeScript"] },
+    { "category": "Frontend", "items": ["React", "Redux", "HTML", "CSS"] },
+    { "category": "Backend", "items": ["FastAPI", "Node.js", "Express.js", "Django", "Spring Boot"] },
+    { "category": "Databases", "items": ["PostgreSQL", "MongoDB", "MySQL", "DynamoDB"] },
+    { "category": "Cloud & DevOps", "items": ["AWS", "Docker", "CI/CD", "Vercel", "Netlify"] }
+  ]
 }
