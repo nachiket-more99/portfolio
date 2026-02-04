@@ -87,33 +87,6 @@
   ],
   "projects": [
     {
-      "project_title": "Finsight – Personal Expense Tracker",
-      "date": "May 2024",
-      "summary": "Full-stack expense tracker with category-wise summaries and optimized DB queries.",
-      "info": [
-        "Developed React frontend with RESTful APIs using Spring Boot to manage personal expenses with CRUD operations and summary reports.",
-        "Integrated Spring Data JPA with H2 database, achieving 100% test coverage on core endpoints.",
-        "Created endpoints for total, monthly, and category-wise summaries; optimized queries to reduce DB load by 30%."
-      ],
-      "tags": ["React", "Java", "Spring Boot", "H2", "Spring Data JPA"],
-      "deployed_link": "",
-      "repo_link": "https://github.com/nachiket-more99/finsight"
-    },
-    {
-      "project_title": "Web App for Quick and Easy Recipes",
-      "date": "Aug 2024",
-      "summary": "Full-stack recipe app deployed on AWS with CI/CD via CodePipeline.",
-      "info": [
-        "Developed a full-stack web app using React and Django with DynamoDB for recipe storage.",
-        "Engineered Django REST APIs integrated with AWS DynamoDB, handling 500+ recipe records.",
-        "Deployed backend on Elastic Beanstalk and frontend on AWS S3 via CI/CD pipelines using AWS CodePipeline.",
-        "Set up CORS and secure cross-origin communication, reducing release time by 40%."
-      ],
-      "tags": ["React", "Django", "AWS", "DynamoDB", "CodePipeline"],
-      "deployed_link": "",
-      "repo_link": "https://github.com/nachiket-more99/recipe-web-app"
-    },
-    {
       "project_title": "AeroGraph – Flight Data Visualization",
       "date": "Dec 2023",
       "summary": "Interactive dashboard with map overlays and MongoDB aggregation pipelines.",
@@ -137,25 +110,12 @@
       "tags": ["React", "Node.js", "Express.js", "MongoDB", "Docker", "Auth0"],
       "deployed_link": "",
       "repo_link": "https://github.com/nachiket-more99/CS-565-002-Full-Stack-Project"
-    },
-    {
-      "project_title": "Rust Web App – Q&A Platform",
-      "date": "Jun 2024",
-      "summary": "High-performance RESTful Q&A API built with Rust and Axum.",
-      "info": [
-        "Built RESTful CRUD APIs using Rust and Axum framework connected to PostgreSQL.",
-        "Implemented robust route handling and error responses supporting operations for 1000+ records.",
-        "Designed for high performance and type safety with minimal runtime overhead."
-      ],
-      "tags": ["Rust", "Axum", "PostgreSQL"],
-      "deployed_link": "",
-      "repo_link": "https://github.com/nachiket-more99/CS510-005-Rust-Web-Dev"
     }
   ],
   "skills": [
     { "category": "Languages", "items": ["Python", "JavaScript (ES6+)", "TypeScript"] },
     { "category": "Frontend", "items": ["React", "Redux", "HTML", "CSS"] },
-    { "category": "Backend", "items": ["FastAPI", "Node.js", "Express.js", "Django", "Spring Boot"] },
+    { "category": "Backend", "items": ["FastAPI", "Node.js", "Express.js"] },
     { "category": "Databases", "items": ["PostgreSQL", "MongoDB", "MySQL", "DynamoDB"] },
     { "category": "Cloud & DevOps", "items": ["AWS", "Docker", "CI/CD", "Vercel", "Netlify"] }
   ]
