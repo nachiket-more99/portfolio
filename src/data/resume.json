@@ -8,7 +8,7 @@
   "self_photo": "/img/self-pic.jpg",
   "github_url": "https://github.com/nachiket-more99/",
   "linkedin_url": "https://www.linkedin.com/in/nachiketmore99/",
-  "resume_link": "",
+  "resume_link": "https://drive.google.com/file/d/1E9TsJ17_U2i6vTQtiUHMTZ0n6zzFOaQd/view?usp=sharing",
   "education": [
     {
       "degree": "M.S. Computer Science",
@@ -97,7 +97,7 @@
         "Built a React + TypeScript frontend with ingestion controls, a chat interface, and real-time source attribution display."
       ],
       "tags": ["FastAPI", "LangChain", "ChromaDB", "OpenAI", "React", "TypeScript"],
-      "deployed_link": "https://codebaseqa.vercel.app/",
+      "deployed_link": "https://codebase-qa-iota.vercel.app/",
       "repo_link": "https://github.com/nachiket-more99/codebase-qa"
     },
     {
@@ -110,7 +110,7 @@
         "Implemented a mock Razorpay-style add-money flow with webhook simulation and deployed across Render, Vercel, Neon (PostgreSQL), and Upstash (Redis)."
       ],
       "tags": ["React", "TypeScript", "NestJS", "PostgreSQL", "Redis", "Prisma"],
-      "deployed_link": "https://ledger-wallet-frontend.vercel.app/",
+      "deployed_link": "https://ledger-wallet-tau.vercel.app/",
       "repo_link": "https://github.com/nachiket-more99/ledger-wallet"
     },
     {
