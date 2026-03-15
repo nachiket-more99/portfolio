@@ -19,6 +19,7 @@ export default function App() {
         <About
           education={data.education}
           experience={data.experience}
+          publications={data.publications}
         />
 
         <div className="border-t border-slate-100" />

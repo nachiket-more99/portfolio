@@ -2,7 +2,7 @@ import { Separator } from '@/components/ui/separator'
 import { useFadeIn } from '@/hooks/useFadeIn'
 import { Badge } from '@/components/ui/badge'
 
-export default function About({ education, experience }) {
+export default function About({ education, experience, publications }) {
   const ref = useFadeIn()
 
   return (
@@ -42,6 +42,29 @@ export default function About({ education, experience }) {
                 )}
               </div>
             ))}
+
+            {/* Publications */}
+            {publications && publications.length > 0 && (
+              <>
+                <Separator className="my-4" />
+                <p className="text-[10px] font-semibold tracking-[0.15em] text-blue-600 uppercase mb-4">
+                  Publications
+                </p>
+                {publications.map((item, index) => (
+                  <div key={index} className="mb-4">
+                    <p className="text-sm font-semibold text-slate-900 leading-snug">
+                      {item.title}
+                    </p>
+                    <p className="text-sm text-slate-500 mt-0.5">
+                      {item.publisher}
+                    </p>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      Published {item.year}
+                    </p>
+                  </div>
+                ))}
+              </>
+            )}
           </div>
         </div>
 
@@ -55,19 +78,15 @@ export default function About({ education, experience }) {
             {experience.map((item, index) => (
               <div key={index}>
                 <div className="mb-3">
-                  <div className="flex items-start justify-between gap-2">
-                    <div>
-                      <p className="text-sm font-semibold text-slate-900">
-                        {item.position}
-                      </p>
-                      <p className="text-sm text-slate-500 mt-0.5">
-                        {item.company} · {item.location}
-                      </p>
-                      <p className="text-xs text-slate-400 mt-0.5">
-                        {item.start_date} – {item.end_date}
-                      </p>
-                    </div>
-                  </div>
+                  <p className="text-sm font-semibold text-slate-900">
+                    {item.position}
+                  </p>
+                  <p className="text-sm text-slate-500 mt-0.5">
+                    {item.company} · {item.location}
+                  </p>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    {item.start_date} – {item.end_date}
+                  </p>
                   {item.tags && (
                     <div className="flex flex-wrap gap-1.5 mt-2">
                       {item.tags.map((tag, i) => (

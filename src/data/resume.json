@@ -5,7 +5,7 @@
   "location": "Mumbai, India",
   "summary": "Full-Stack Software Engineer with 2+ years of experience building scalable web applications, REST APIs, and cloud-deployed systems using React, Django, Node.js, and AWS. Skilled in both frontend and backend development, CI/CD automation, and database design.",
   "position": "Full-Stack Software Engineer",
-  "self_photo": "/img/self-pic.jpeg",
+  "self_photo": "/img/self-pic.jpg",
   "github_url": "https://github.com/nachiket-more99/",
   "linkedin_url": "https://www.linkedin.com/in/nachiketmore99/",
   "resume_link": "",
@@ -87,7 +87,34 @@
   ],
   "projects": [
     {
-      "project_title": "AeroGraph – Flight Data Visualization",
+      "project_title": "Codebase Q&A - RAG-Powered Developer Tool",
+      "date": "Mar 2026",
+      "summary": "End-to-end RAG pipeline to semantically search and query codebases using natural language.",
+      "info": [
+        "Built an end-to-end RAG pipeline to index and query codebases using LangChain, ChromaDB as the vector store, and OpenAI text-embedding-3-small for semantic embeddings.",
+        "Implemented document ingestion from GitHub repos and direct file uploads, chunking source files and storing vector embeddings for context-aware retrieval.",
+        "Designed a Q&A chain using GPT-4o-mini with retrieved context windows, returning answers with source file references ranked by similarity score.",
+        "Built a React + TypeScript frontend with ingestion controls, a chat interface, and real-time source attribution display."
+      ],
+      "tags": ["FastAPI", "LangChain", "ChromaDB", "OpenAI", "React", "TypeScript"],
+      "deployed_link": "https://codebaseqa.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/codebase-qa"
+    },
+    {
+      "project_title": "Ledger Wallet - Full-Stack Finance Application",
+      "date": "Feb 2026",
+      "summary": "Digital wallet with ledger-based accounting, Redis caching, and mock Razorpay payment flow.",
+      "info": [
+        "Built a digital wallet system with user authentication, balance tracking, money transfers, and transaction history using a ledger-based accounting model.",
+        "Ensured data consistency using database transactions for atomic transfers and Redis caching for balances and recent transactions.",
+        "Implemented a mock Razorpay-style add-money flow with webhook simulation and deployed across Render, Vercel, Neon (PostgreSQL), and Upstash (Redis)."
+      ],
+      "tags": ["React", "TypeScript", "NestJS", "PostgreSQL", "Redis", "Prisma"],
+      "deployed_link": "https://ledger-wallet-frontend.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/ledger-wallet"
+    },
+    {
+      "project_title": "AeroGraph - Flight Data Visualization",
       "date": "Dec 2023",
       "summary": "Interactive dashboard with map overlays and MongoDB aggregation pipelines.",
       "info": [
@@ -115,8 +142,9 @@
   "skills": [
     { "category": "Languages", "items": ["Python", "JavaScript (ES6+)", "TypeScript"] },
     { "category": "Frontend", "items": ["React", "Redux", "HTML", "CSS"] },
-    { "category": "Backend", "items": ["FastAPI", "Node.js", "Express.js"] },
-    { "category": "Databases", "items": ["PostgreSQL", "MongoDB", "MySQL", "DynamoDB"] },
-    { "category": "Cloud & DevOps", "items": ["AWS", "Docker", "CI/CD", "Vercel", "Netlify"] }
+    { "category": "Backend", "items": ["FastAPI", "NestJS", "Node.js", "Express.js", "Django"] },
+    { "category": "Databases", "items": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB"] },
+    { "category": "AI / ML", "items": ["LangChain", "RAG", "OpenAI API", "ChromaDB"] },
+    { "category": "Cloud & DevOps", "items": ["AWS", "Docker", "CI/CD", "Vercel", "Render"] }
   ]
 }
