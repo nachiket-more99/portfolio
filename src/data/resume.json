@@ -8,7 +8,7 @@
   "self_photo": "/img/self-pic.jpg",
   "github_url": "https://github.com/nachiket-more99/",
   "linkedin_url": "https://www.linkedin.com/in/nachiketmore99/",
-  "resume_link": "https://drive.google.com/file/d/1E9TsJ17_U2i6vTQtiUHMTZ0n6zzFOaQd/view?usp=sharing",
+  "resume_link": "https://drive.google.com/file/d/17_C8Bl6pnqXx6PBoC7oKrjMRU8Pnc-8x/view?usp=sharing",
   "education": [
     {
       "degree": "M.S. Computer Science",
@@ -96,7 +96,14 @@
         "Designed a Q&A chain using GPT-4o-mini with retrieved context windows, returning answers with source file references ranked by similarity score.",
         "Built a React + TypeScript frontend with ingestion controls, a chat interface, and real-time source attribution display."
       ],
-      "tags": ["FastAPI", "LangChain", "ChromaDB", "OpenAI", "React", "TypeScript"],
+      "tags": [
+        "FastAPI",
+        "LangChain",
+        "ChromaDB",
+        "OpenAI",
+        "React",
+        "TypeScript"
+      ],
       "deployed_link": "https://codebase-qa-iota.vercel.app/",
       "repo_link": "https://github.com/nachiket-more99/codebase-qa"
     },
@@ -109,9 +116,76 @@
         "Ensured data consistency using database transactions for atomic transfers and Redis caching for balances and recent transactions.",
         "Implemented a mock Razorpay-style add-money flow with webhook simulation and deployed across Render, Vercel, Neon (PostgreSQL), and Upstash (Redis)."
       ],
-      "tags": ["React", "TypeScript", "NestJS", "PostgreSQL", "Redis", "Prisma"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "Prisma"
+      ],
       "deployed_link": "https://ledger-wallet-tau.vercel.app/",
       "repo_link": "https://github.com/nachiket-more99/ledger-wallet"
+    },
+    {
+      "project_title": "AI-Powered Task Manager",
+      "date": "Nov 2025",
+      "summary": "Full-stack task manager with natural language input parsing powered by OpenAI GPT-4o-mini.",
+      "info": [
+        "Built a full-stack task manager with Next.js API Routes and Prisma ORM backed by PostgreSQL, supporting full CRUD with priority levels and due dates.",
+        "Integrated OpenAI GPT-4o-mini to parse natural language input into structured tasks, automatically extracting task name, priority, and due date.",
+        "Implemented runtime request validation using Zod on all API routes with proper HTTP status codes, 404 handling, and RESTful dynamic [id] routing.",
+        "Deployed on Vercel with Neon-hosted PostgreSQL; Prisma client singleton pattern prevents connection pool exhaustion during Next.js hot reloads."
+      ],
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "OpenAI",
+        "Tailwind CSS"
+      ],
+      "deployed_link": "https://todo-app-one-amber-25.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/Todo-app"
+    },
+    {
+      "project_title": "Web App for Quick and Easy Recipes",
+      "date": "Jul 2025",
+      "summary": "Full-stack recipe app with real-time search, AWS-deployed infrastructure, and containerized services.",
+      "info": [
+        "Developed full-stack recipe app with React frontend and Django REST API backend integrated with DynamoDB, handling 500+ recipe records.",
+        "Built a responsive React frontend with real-time search and filtering; styled with Tailwind CSS ensuring 100% responsive design across devices.",
+        "Deployed frontend to AWS S3 and backend to Elastic Beanstalk via AWS CodePipeline CI/CD, reducing deployment time by 70%.",
+        "Containerized services with Docker; added Swagger API docs and secured endpoints using OAuth2."
+      ],
+      "tags": [
+        "React",
+        "Django",
+        "DynamoDB",
+        "AWS",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "deployed_link": "https://recipe-web-app-two-xi.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/recipe-web-app"
+    },
+    {
+      "project_title": "Sentiment Analysis of Movie Reviews",
+      "date": "Mar 2024",
+      "summary": "Backend sentiment analysis pipeline processing 1,000+ movie reviews per day using Google Cloud NLP and TMDb API.",
+      "info": [
+        "Created a backend sentiment analysis pipeline using the TMDb API and Google Cloud Natural Language API, processing 1,000+ reviews per day.",
+        "Containerized the app with Docker and deployed to Google Cloud Run with auto-scaling and load balancing enabled."
+      ],
+      "tags": [
+        "Python",
+        "Docker",
+        "Google Cloud Run",
+        "Google NLP API",
+        "TMDb API"
+      ],
+      "deployed_link": null,
+      "repo_link": null
     },
     {
       "project_title": "AeroGraph - Flight Data Visualization",
@@ -140,11 +214,26 @@
     }
   ],
   "skills": [
-    { "category": "Languages", "items": ["Python", "JavaScript (ES6+)", "TypeScript"] },
-    { "category": "Frontend", "items": ["React", "Redux", "HTML", "CSS"] },
-    { "category": "Backend", "items": ["FastAPI", "NestJS", "Node.js", "Express.js", "Django"] },
-    { "category": "Databases", "items": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB"] },
-    { "category": "AI / ML", "items": ["LangChain", "RAG", "OpenAI API", "ChromaDB"] },
-    { "category": "Cloud & DevOps", "items": ["AWS", "Docker", "CI/CD", "Vercel", "Render"] }
+    {
+      "category": "Languages",
+      "items": ["Python", "JavaScript (ES6+)", "TypeScript"]
+    },
+    { "category": "Frontend", "items": ["React", "Next.js", "Redux", "HTML", "CSS"] },
+    {
+      "category": "Backend",
+      "items": ["FastAPI", "NestJS", "Node.js", "Express.js", "Django"]
+    },
+    {
+      "category": "Databases",
+      "items": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB"]
+    },
+    {
+      "category": "AI / ML",
+      "items": ["LangChain", "RAG", "OpenAI API", "ChromaDB"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["AWS", "Docker", "CI/CD", "Vercel", "Render"]
+    }
   ]
 }
