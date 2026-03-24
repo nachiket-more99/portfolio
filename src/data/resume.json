@@ -184,8 +184,8 @@
         "Google NLP API",
         "TMDb API"
       ],
-      "deployed_link": null,
-      "repo_link": null
+      "deployed_link": "https://cinesense-dhy7.onrender.com/",
+      "repo_link": "https://github.com/nachiket-more99/movie-review-sentiment"
     },
     {
       "project_title": "AeroGraph - Flight Data Visualization",
@@ -197,8 +197,8 @@
         "Architected a REST API layer in Node.js with query filtering, pagination, and response caching."
       ],
       "tags": ["React", "Node.js", "MongoDB", "REST APIs"],
-      "deployed_link": "",
-      "repo_link": "https://github.com/nachiket-more99/CS-564-001-Front-End-Project"
+      "deployed_link": "https://aerograph-xi.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/aerograph"
     },
     {
       "project_title": "Trivia Game Application",
@@ -209,8 +209,8 @@
         "Containerized frontend and backend services using Docker for consistent local and production environments."
       ],
       "tags": ["React", "Node.js", "Express.js", "MongoDB", "Docker", "Auth0"],
-      "deployed_link": "",
-      "repo_link": "https://github.com/nachiket-more99/CS-565-002-Full-Stack-Project"
+      "deployed_link": "https://trivia-game-mern.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/trivia-game-mern"
     }
   ],
   "skills": [
