@@ -87,6 +87,29 @@
   ],
   "projects": [
     {
+      "project_title": "Multi-Tenant API Platform",
+      "date": "May 2026",
+      "summary": "Multi-tenant API management platform with isolated workspaces, role-based access, background job workers, and a full Docker Compose setup.",
+      "info": [
+        "Built a multi-tenant API management platform where each workspace gets isolated API keys, usage tracking, and request logs — users can generate keys, invite members, and test endpoints from a dashboard.",
+        "Offloaded request logging and usage aggregation to BullMQ background workers to avoid blocking the main request cycle; scheduled jobs handle daily summaries and prune logs older than 30 days.",
+        "Implemented role-based access per tenant with JWT auth, raw API key shown only once on generation, and per-key rate limiting stored in Redis.",
+        "Containerized the full stack with Docker Compose — separate services for Postgres, Redis, backend, and frontend — with Prisma handling schema migrations and seeding."
+      ],
+      "tags": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "BullMQ",
+        "React",
+        "Docker"
+      ],
+      "deployed_link": "https://multi-tenant-api-platform.vercel.app/",
+      "repo_link": "https://github.com/nachiket-more99/multi-tenant-api-platform"
+    },
+    {
       "project_title": "Codebase Q&A - RAG-Powered Developer Tool",
       "date": "Mar 2026",
       "summary": "End-to-end RAG pipeline to semantically search and query codebases using natural language.",
@@ -216,24 +239,27 @@
   "skills": [
     {
       "category": "Languages",
-      "items": ["Python", "JavaScript (ES6+)", "TypeScript"]
+      "items": ["Python", "JavaScript (ES6+)", "TypeScript", "SQL", "Bash"]
     },
-    { "category": "Frontend", "items": ["React", "Next.js", "Redux", "HTML", "CSS"] },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "Redux", "Tailwind CSS", "HTML5", "CSS3"]
+    },
     {
       "category": "Backend",
-      "items": ["FastAPI", "NestJS", "Node.js", "Express.js", "Django"]
+      "items": ["FastAPI", "NestJS", "Node.js", "Express.js", "Django", "Flask"]
     },
     {
       "category": "Databases",
-      "items": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB"]
+      "items": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB", "MySQL"]
     },
     {
       "category": "AI / ML",
-      "items": ["LangChain", "RAG", "OpenAI API", "ChromaDB"]
+      "items": ["LangChain", "RAG", "OpenAI API", "ChromaDB", "Google NLP API"]
     },
     {
       "category": "Cloud & DevOps",
-      "items": ["AWS", "Docker", "CI/CD", "Vercel", "Render"]
+      "items": ["AWS", "Docker", "GitHub Actions", "CI/CD", "Vercel", "Render"]
     }
   ]
 }

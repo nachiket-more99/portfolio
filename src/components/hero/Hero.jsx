@@ -14,7 +14,7 @@ export default function Hero({ data }) {
         {/* Left — text */}
         <div className="flex-1">
           <p className="text-xs font-semibold tracking-[0.2em] text-blue-600 uppercase mb-4">
-            Full-Stack Software Engineer
+            Software Engineer
           </p>
 
           <h1 className="text-4xl md:text-5xl font-semibold text-slate-900 leading-tight mb-4">
@@ -22,7 +22,7 @@ export default function Hero({ data }) {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 leading-snug mb-2">
-            I build scalable web apps
+            I build scalable  APIs, full-stack apps
           </p>
           <p className="text-lg md:text-xl text-slate-500 leading-snug mb-8">
             and AI-powered APIs.
