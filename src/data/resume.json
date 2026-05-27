@@ -27,11 +27,24 @@
   ],
   "experience": [
     {
+      "position": "Projects & Self-Directed Engineering",
+      "company": "",
+      "location": "Mumbai, India",
+      "start_date": "Aug 2025",
+      "end_date": "Present",
+      "tags": ["Node.js", "React", "FastAPI", "PostgreSQL", "Redis", "LangChain", "Docker"],
+      "info": [
+        "Independently built and shipped multiple full-stack projects including a multi-tenant API platform, a RAG-powered developer tool, and a ledger-based finance app while conducting a focused global remote job search."
+      ]
+    },
+
+
+    {
       "position": "Backend Developer",
       "company": "Fact Finders Pro",
       "location": "Seattle, WA",
       "start_date": "Sept 2024",
-      "end_date": "Present",
+      "end_date": "July 2025",
       "tags": ["FastAPI", "Python", "OpenAI API", "Microservices"],
       "info": [
         "Built a multi-service data verification pipeline using FastAPI, with an orchestrator managing 6 independent microservices running concurrently and sequentially based on data dependencies.",
