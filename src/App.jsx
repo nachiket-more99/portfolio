@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import data from '@/data/resume.json'
 import Navbar from '@/components/navbar/Navbar'
 import Hero from '@/components/hero/Hero'
@@ -35,6 +36,7 @@ export default function App() {
         linkedin_url={data.linkedin_url}
       />
 
+      <Analytics />
     </div>
   )
 }
